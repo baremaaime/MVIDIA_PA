@@ -22,8 +22,8 @@ We use a spatial cnn with ResNet101 pretrained on UCF101 dataset.
 
 ## 2. Testing 
   ### Spatial stream
+ * Pretrained model weights can be found [here](https://drive.google.com/file/d/1Rosun5cz_3qXFyeYsBVo7lHuGzVJad_z/view?usp=drive_link)
  * After setting your test dataset in the appropriate directory, you can run the following script file as follows:
- * Training and testing
  ```
  sbatch run_eval.sh
  ```
