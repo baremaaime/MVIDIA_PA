@@ -1,0 +1,9 @@
+pip install Pillow
+pip install numpy
+pip install iPython
+pip install torch
+pip install torchvision
+pip install regex
+pip install ftfy
+pip install tqdm
+pip install matplotlib
