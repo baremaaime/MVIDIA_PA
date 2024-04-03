@@ -1,7 +1,7 @@
 # Image-level micro gesture classification with 32 distinct classes.
 We use a spatial cnn with ResNet101 pretrained on UCF101 dataset.
 ## Reference Paper
-*  [[1] Two-stream convolutional networks for action recognition in videos](http://papers.nips.cc/paper/5353-two-stream-convolutional)
+*  [Two-stream convolutional networks for action recognition in videos](http://papers.nips.cc/paper/5353-two-stream-convolutional)
 
 ## 1. Data
   ### 1.1 Spatial input data -> rgb frames
@@ -22,7 +22,10 @@ We use a spatial cnn with ResNet101 pretrained on UCF101 dataset.
 
 ## 2. Testing 
   ### Spatial stream
- * Pretrained model weights can be found [here](https://drive.google.com/file/d/1Rosun5cz_3qXFyeYsBVo7lHuGzVJad_z/view?usp=drive_link)
+ * Pretrained model weights can be found [here](https://drive.google.com/file/d/1Rosun5cz_3qXFyeYsBVo7lHuGzVJad_z/view?usp=drive_link).
+ ```
+ ./pretrained/best_model_weights.pth
+ ```
  * After setting your test dataset in the appropriate directory, you can run the following script file as follows:
  ```
  sbatch run_eval.sh
